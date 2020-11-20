@@ -1,10 +1,17 @@
-# Whatsapp Clone
+# React+Typescript Boilerplate
+
+## About
+
+This is my version of React+Typescript Boilerplate including Redux, Webpack, Eslint, Prettier, Babel, 
+Jest, Enzyme and JSDoc. Feel free to contact me if you want to suggest improvements to this template, 
+because it is far from being perfect.
+Email: <a href="mailto:ilya@kozlov.dev"><img align="left" alt="ilya@kozlov.dev | Mail" width="22px" src="https://cdn.iconscout.com/icon/free/png-512/mail-1138-827052.png" /></a>
 
 ## Getting Started
 
 First thing first, you need to clone my project from my 
-GitHub repo: `<some link will be here>`
+GitHub repo: `git clone https://github.com/ilyakozlovdev/react-typescript-boilerplate.git` <br/>
 
-## Thanks
+Then install dependencies with yarn `yarn install` or npm `npm install`.<br/>
 
-Thanks to me for my time spent for this project
+Finally, run it `yarn dev` || `npm run dev` and start developing something really cool!
