@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve --watch --mode development --env development --hot --inline --progress",
+    "dev": "webpack serve --watch --mode development --env development --config webpack.config.ts",
     "docs": "jsdoc -c jsdoc.conf.json",
-    "build": "webpack --mode production --env.production --progress",
+    "build": "webpack --mode production --env production --progress",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
     "test": "jest --watch"
