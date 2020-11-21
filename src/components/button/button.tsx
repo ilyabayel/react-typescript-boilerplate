@@ -1,9 +1,9 @@
 import React, {ReactElement} from 'react';
 
-export type ButtonProps = {
-  label: string;
-  onClick: (e) => void;
-};
+export interface ButtonProps {
+  label?: string;
+  onClick?: (e) => void;
+}
 
 export function Button({label, onClick}: ButtonProps): ReactElement {
   return (
