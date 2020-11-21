@@ -11,8 +11,7 @@ Email: <a href="mailto:ilya@kozlov.dev"><img align="left" alt="ilya@kozlov.dev |
 ## Getting Started
 
 First thing first, you need to clone my project from my 
-GitHub repo: `git clone https://github.com/ilyakozlovdev/react-typescript-boilerplate.git` <br/>
-
+GitHub repo: <br/>
+`git clone https://github.com/ilyakozlovdev/react-typescript-boilerplate.git` <br/>
 Then install dependencies with yarn `yarn install` or npm `npm install`.<br/>
-
 Finally, run it `yarn dev` || `npm run dev` and start developing something really cool!
