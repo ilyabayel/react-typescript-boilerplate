@@ -1,4 +1,4 @@
-import {CounterActionTypes, DECREMENT, INCREMENT, SET_COUNTER} from './counter.types';
+import {CounterActionTypes, DECREASE, INCREASE, SET_COUNTER} from './counter.types';
 
 function setCounter(counter: number): CounterActionTypes {
   return {
@@ -7,22 +7,22 @@ function setCounter(counter: number): CounterActionTypes {
   };
 }
 
-function increment(count: number): CounterActionTypes {
+function increase(count: number): CounterActionTypes {
   return {
-    type: INCREMENT,
+    type: INCREASE,
     payload: count
   };
 }
 
-function decrement(count: number): CounterActionTypes {
+function decrease(count: number): CounterActionTypes {
   return {
-    type: DECREMENT,
+    type: DECREASE,
     payload: count
   };
 }
 
 export const counterActions = {
   setCounter,
-  increment,
-  decrement
+  increase,
+  decrease
 };

@@ -1,6 +1,6 @@
 export const SET_COUNTER = 'SET_COUNTER';
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
+export const INCREASE = 'INCREASE';
+export const DECREASE = 'DECREASE';
 
 export type Counter = {
   count: number;
@@ -14,12 +14,12 @@ interface SetCounter {
 }
 
 interface Increment {
-  type: typeof INCREMENT;
+  type: typeof INCREASE;
   payload: number;
 }
 
 interface Decrement {
-  type: typeof DECREMENT;
+  type: typeof DECREASE;
   payload: number;
 }
 
