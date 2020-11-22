@@ -4,7 +4,7 @@ import {composeWithDevTools} from 'redux-devtools-extension';
 import {reducers} from './reducers';
 import {CounterState} from './modules/counter/counter.types';
 
-export type Store = {
+export type RootState = {
   counter: CounterState;
 };
 
