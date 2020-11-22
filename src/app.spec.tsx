@@ -13,7 +13,7 @@ const initialState = {
   }
 };
 
-const actionQueue = [];
+let actionQueue = [];
 
 jest.mock('react-redux', () => ({
   useDispatch: jest.fn(() => (action: CounterActionTypes) => actionQueue.push(action)),
@@ -24,9 +24,7 @@ describe('App component', () => {
   let wrapper;
   beforeEach(() => {
     wrapper = shallow(<App />);
-    while (actionQueue.length > 0) {
-      actionQueue.pop();
-    }
+    actionQueue = [];
   });
   it('should render without errors', () => {
     const app = findByTestAttr(wrapper, 'app-component');
